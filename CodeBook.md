@@ -8,6 +8,7 @@ Variables interpretation:
 All variables are composed of 6 to 7 short elements describing the treatment done to it, except for the first two variables (subject and activity), that are single composed.
 
 The elements that describe the variable are constructed in the following order:
+
 1. Method of aggregation by activity for each activity and each subject.
 	- “ave” for average.
 2. Method of estimation of the signals done by the authors.
