@@ -3,6 +3,8 @@ CODEBOOK
 ===============================================
 
 Variables interpretation:
+-----------------------------------------------
+
 All variables are composed of 6 to 7 short elements describing the treatment done to it, except for the first two variables (subject and activity), that are single composed.
 
 The elements that describe the variable are constructed in the following order:
@@ -20,7 +22,7 @@ The elements that describe the variable are constructed in the following order:
 	5.sensor signal
 		- “acc” for accelerometer
 		- “gyr” for gyroscope
-	6. time derivation to obtain Jerk signals and the magnitude of the three 		dimensional signals. (if aplied)
+	6. time derivation to obtain Jerk signals and the magnitude of the three dimensional signals. (if aplied)
 		- “jerk” for jerk sginals.
 		- “mag” for magnitude
 		- “jerkmag” for both
@@ -31,14 +33,20 @@ The elements that describe the variable are constructed in the following order:
 	
 
 Data:
+-----------------------------------------------
+
 180 observations of 68 variables derived from the Human Activity Recognition Using Smartphones Dataset (version 1.0) using the run_analysis.R script and the method described in the README.md file.
 
 
 Treatment:
+-----------------------------------------------
+
 Each variable where casted from the Human Activity Recognition Using Smartphones Dataset (version 1.0) averaging its values over each activity and each subject.
 
 
 Variables:
+-----------------------------------------------
+
 
 	- “subject"
 	- "activity"
