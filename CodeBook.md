@@ -8,28 +8,28 @@ Variables interpretation:
 All variables are composed of 6 to 7 short elements describing the treatment done to it, except for the first two variables (subject and activity), that are single composed.
 
 The elements that describe the variable are constructed in the following order:
-	1. Method of aggregation by activity for each activity and each subject.
-		- “ave” for average.
-	2. Method of estimation of the signals done by the authors.
-		- “mean” for mean
-		- “stdd” for standard deviation
-	3. Domain of the signals
-		- “time” for time
-		- “freq” for frequency
-	4. Acceleration component of the sensor signal 
-		- “body” for body acceleration
-		- “grav” for gravity acceleration
-	5.sensor signal
-		- “acc” for accelerometer
-		- “gyr” for gyroscope
-	6. time derivation to obtain Jerk signals and the magnitude of the three dimensional signals. (if aplied)
-		- “jerk” for jerk sginals.
-		- “mag” for magnitude
-		- “jerkmag” for both
-	7. axis of the signal (if absent represent total signal)
-		- “x” for x-axis
-		- “y” for y-axis
-		- “z” for z-axis
+1. Method of aggregation by activity for each activity and each subject.
+	- “ave” for average.
+2. Method of estimation of the signals done by the authors.
+	- “mean” for mean
+	- “stdd” for standard deviation
+3. Domain of the signals
+	- “time” for time
+	- “freq” for frequency
+4. Acceleration component of the sensor signal 
+	- “body” for body acceleration
+	- “grav” for gravity acceleration
+5.sensor signal
+	- “acc” for accelerometer
+	- “gyr” for gyroscope
+6. time derivation to obtain Jerk signals and the magnitude of the three dimensional signals. (if aplied)
+	- “jerk” for jerk sginals.
+	- “mag” for magnitude
+	- “jerkmag” for both
+7. axis of the signal (if absent represent total signal)
+	- “x” for x-axis
+	- “y” for y-axis
+	- “z” for z-axis
 	
 
 Data:
